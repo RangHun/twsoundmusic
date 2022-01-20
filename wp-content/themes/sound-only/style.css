@@ -1,0 +1,229 @@
+/*
+Theme Name: 迴響用模板
+Theme URI: https://www.twsoundmusic.com
+Author: 軟翰
+Author: https://www.twsoundmusic.com
+Template: sydney
+Description: 迴響專用模板
+Version: 0.1
+*/
+
+@import url('../sydney/style.css');
+
+
+.page-wrap,.page .page-wrap .content-wrapper, .single .page-wrap .content-wrapper{padding:0 !important;}
+.container.content-wrapper{margin:0; width:100% !important ;}
+
+/*字型*/
+body, #mainnav ul ul a,p, span, h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"]{font-family: sans-serif !important ;}/*'Josefin Slab','Noto Sans TC',*/
+.stage p span ,.stage p strong{font-family: auto !important ;}
+.stage p span {font-weight: 500 ;}
+/*字型*/
+
+/*欄邊框(全部頁面)*/
+.row{margin:0px !important;}
+/*欄邊框(全部頁面)*/
+
+/*footer*/
+#sow-editor-3,#sow-editor-4,#sow-editor-5{margin-top:13% !important;}
+#sidebar-footer{padding:5% 0 2% 0 !important;}
+/*footer*/
+
+
+/*照片banner RWD全視窗*/
+#pgc-39-0-0,#pgc-30-0-0{
+margin:0 !important;
+padding:0 !important;}
+/*照片banner RWD全視窗*/
+
+
+/*聯絡我們背景*/
+.page-id-33 .content-wrapper{
+background-image:url('https://www.twsoundmusic.com/wp-content/uploads/20220113%E5%A3%93%E7%B8%AE-bg-connect.jpg');
+background-repeat: no-repeat !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+}
+/*聯絡我們背景*/
+
+/*首頁背景圖片*/
+.home .content-wrapper{
+background-image:url('https://www.twsoundmusic.com/wp-content/uploads/20220113%E5%A3%93%E7%B8%AE-bg-index.jpg');
+background-size: cover !important;
+}
+/*首頁背景圖片*/
+
+/*環境背景*/
+.page-id-27 .content-wrapper
+{
+background-image:url('https://www.twsoundmusic.com/wp-content/uploads/20220113%E5%A3%93%E7%B8%AE-bg-environment.jpg');
+background-repeat: no-repeat !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+}
+/*環境背景*/
+
+/*師資背景*/
+.page-id-86 .content-wrapper
+{
+background-image:url('https://www.twsoundmusic.com/wp-content/uploads/20220113%E5%A3%93%E7%B8%AE-bg-teacher.jpg');
+background-repeat: no-repeat !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+}
+/*師資背景*/
+
+/*各項課程學生平板折疊*/
+@media (min-width: 560px) and (max-width: 1024px) {
+.studio-price,.student,.appointment {
+    flex-direction: column;
+    padding:5% !important;
+}
+.studio-price .panel-grid-cell,.student .panel-grid-cell,.appointment .panel-grid-cell{
+    width:100% !important;
+}
+.stage p{
+		font-size:2vw !important;
+	}
+.stage img{
+		width:280px !important;
+		height:143px !important;
+	}
+}
+/*各項課程學生平板折疊*/
+
+
+
+/*line按鈕手機板*/
+@media (max-width: 780px) {
+	.line-mobile{
+        position: fixed;
+	    bottom: 80px;
+	    right:-35px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+    }
+	
+	.line-pc{
+		display: none;
+	}
+	.stage p {font-size:3.9vw;}
+	.stage p span {font-weight: 400 ;}
+}
+
+
+@media (min-width: 781px) and (max-width: 959px) {
+	.line-mobile{
+        position: fixed;
+	    bottom: 80px;
+	    right:-35px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+    }
+	
+	.line-pc{
+		display: none;
+	}
+	.stage p {font-size:1.9vw;}
+	.stage p span {font-weight: 400 ;}
+	.stage img {width:80%;}
+}
+/*line按鈕手機板*/
+
+
+/*line按鈕電腦板*/
+@media (min-width: 960px) and (max-width: 1024px) {
+	.line-mobile{
+		display: none;
+	}
+	
+	.line-pc{
+        position: fixed;
+	    bottom: 80px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+	.stage p {font-size:1.9vw;}
+	.stage img {width:80%;}
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.line-mobile{
+		display: none;
+	}
+	
+	.line-pc{
+        position: fixed;
+	    bottom: 80px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+	.stage p {font-size:1.9vw;}
+	.stage img {width:80%;}
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+	.line-mobile{
+		display: none;
+	}
+	
+	.line-pc{
+        position: fixed;
+	    bottom: 80px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+	.stage p {font-size:24px;}
+}
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+	.line-mobile{
+		display: none;
+	}
+	
+	.line-pc{
+        position: fixed;
+	    bottom: 80px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+	.stage p {font-size:24px;}
+}
+
+@media (min-width: 1600px) {
+	.line-mobile{
+		display: none;
+	}
+	
+	.line-pc{
+        position: fixed;
+	    bottom: 80px;
+	    right:-25px;
+        transform: translateX(-50%);
+		z-index:999 !important;
+		width:80px;
+	}
+	.stage p {font-size:24px;}
+}
+/*line按鈕電腦板*/
+.lineadd {
+    border:0;
+}
+.forminator-ui{
+    text-align: center;
+}
+.friendy-link{
+    display: none;
+}
+
+h1{display:none;}
